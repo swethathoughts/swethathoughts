@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-03T21:45:14.587Z",
+        "line": 3,
+        "name": "Validate the google search functionality is working",
+        "description": "",
+        "id": "google-search-functionality;validate-the-google-search-functionality-is-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3264605600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "browser is open",
+            "match": {
+              "location": "GoogleStepDefination.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1335248900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on google search page",
+            "match": {
+              "location": "GoogleStepDefination.user_is_on_google_search_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2428229700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the text in search box",
+            "match": {
+              "location": "GoogleStepDefination.user_enters_the_text_in_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4332037900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user hits enter",
+            "match": {
+              "location": "GoogleStepDefination.user_hits_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12830724100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to search results",
+            "match": {
+              "location": "GoogleStepDefination.user_is_navigated_to_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google search functionality",
+    "description": "",
+    "id": "google-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/GoogleSearch.feature",
+    "tags": []
+  }
+]
